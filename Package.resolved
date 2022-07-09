@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "xcgrapherpluginsupport",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maxchuquimia/XCGrapherPluginSupport.git",
+      "state" : {
+        "revision" : "207d864c14b0cf6ed54b9f892817984f9acf03dc",
+        "version" : "0.0.6"
+      }
+    }
+  ],
+  "version" : 2
+}

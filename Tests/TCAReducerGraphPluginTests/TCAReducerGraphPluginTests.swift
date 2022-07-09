@@ -1,11 +1,15 @@
-import XCTest
+//
+//  TCAReducerGraphPluginTests.swift
+//
+//
+//  Created by Mathew Gacy on 7/9/22.
+//
+
 @testable import TCAReducerGraphPlugin
+import XCTest
 
 final class TCAReducerGraphPluginTests: XCTestCase {
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(TCAReducerGraphPlugin().text, "Hello, World!")
+        // ...
     }
 }

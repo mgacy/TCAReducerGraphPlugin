@@ -1,6 +1,21 @@
-public struct TCAReducerGraphPlugin {
-    public private(set) var text = "Hello, World!"
+//
+//  TCAReducerGraphPlugin.swift
+//
+//
+//  Created by Mathew Gacy on 7/9/22.
+//
 
-    public init() {
-    }
+import XCGrapherPluginSupport
+
+// MARK: - Dylib makeXCGrapherPlugin exporting
+
+@_cdecl("makeXCGrapherPlugin")
+public func makeXCGrapherPlugin() -> UnsafeMutableRawPointer {
+    Unmanaged.passRetained(TCAReducerGraphPlugin()).toOpaque()
+}
+
+// MARK: - Plugin
+
+public class TCAReducerGraphPlugin: XCGrapherPlugin {
+    // ...
 }
